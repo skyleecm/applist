@@ -1,0 +1,25 @@
+// applist.mmp
+
+TARGET        applist.pyd
+TARGETTYPE    dll
+TARGETPATH	  \system\libs
+UID           0
+
+
+SOURCEPATH    .
+SOURCE        applist.cpp
+
+// USERINCLUDE
+USERINCLUDE 	. 
+
+
+SYSTEMINCLUDE	\epoc32\include\python
+SYSTEMINCLUDE   \python-port-s60\symbian_python\Include
+SYSTEMINCLUDE   \python-port-s60\symbian_python\Symbian
+SYSTEMINCLUDE   \python-port-s60\symbian_python\Python
+SYSTEMINCLUDE	\epoc32\include 
+SYSTEMINCLUDE   \epoc32\include\libc
+
+LIBRARY       euser.lib apgrfx.lib apparc.lib python222.lib
+
+

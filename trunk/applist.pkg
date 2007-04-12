@@ -1,0 +1,15 @@
+; Python library for S60 app
+;
+;Languages
+&EN
+;
+;
+#{"applist"},(0x2000A807),1,0,0
+;
+;Supports Series 60 v 2.0
+;
+(0x101F7960), 0, 0, 0, {"Series60ProductID"}
+;
+; Files to install:
+
+"APPLIST.PYD"		-"!:\system\libs\APPLIST.PYD"
